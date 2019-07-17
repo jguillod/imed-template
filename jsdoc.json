@@ -23,6 +23,6 @@
 		"private": true,
 		"recurse": true,
 		"template": "./node_modules/minami",
-		"title": "@imed-ch/imed-template"
+		"title": "@imed.ch/imed-template"
 	}
 }
