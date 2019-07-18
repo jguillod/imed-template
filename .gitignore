@@ -1,6 +1,7 @@
 # eliiot
 docs
 !docs/index.js
+package-lock.json
 
 # Logs
 logs

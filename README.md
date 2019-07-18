@@ -1,16 +1,26 @@
 # imed-template #
 
-> my template for nodejs module
+> some template for nodejs module
 
 [![Join the chat at https://gitter.im/imed-template/community][community-image]][community-url]
 [![NPM Version][npm-image]][npm-url]
 [![NPM][license-image]](LICENSE)
 
 [![Build Status][travis-image]][travis-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
+[![Coverage Status](https://coveralls.io/repos/github/jguillod/imed-template/badge.svg?branch=master)](https://coveralls.io/github/jguillod/imed-template?branch=master)
 
 [![Backers](https://opencollective.com/imed-template/backers/badge.svg)](#BACKERS)
 [![Sponsors](https://opencollective.com/imed-template/sponsors/badge.svg)](#SPONSORS)
+
+[community-image]: https://badges.gitter.im/imed-template/community.svg
+[community-url]: https://gitter.im/imed-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+[npm-image]: https://img.shields.io/npm/v/imed-template.svg
+[npm-url]: https://npmjs.org/package/imed-template
+[license-image]: https://img.shields.io/github/license/jguillod/imed-template.svg
+[travis-image]: https://travis-ci.com/jguillod/imed-template.svg?branch=master
+[travis-url]: https://travis-ci.com/jguillod/imed-template
+[coveralls-image]: https://img.shields.io/coveralls/live-js/imed-template/master.svg
+[coveralls-url]: https://coveralls.io/r/live-js/imed-template?branch=master
 
 
 
@@ -53,12 +63,3 @@ Use **imed-template** at Work? Ask your manager or marketing team if they'd help
 
 
 
-[community-image]: https://badges.gitter.im/imed-template/community.svg
-[community-url]: https://gitter.im/imed-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
-[npm-image]: https://img.shields.io/npm/v/imed-template.svg
-[npm-url]: https://npmjs.org/package/imed-template
-[license-image]: https://img.shields.io/github/license/jguillod/imed-logger.svg
-[travis-image]: https://travis-ci.com/jguillod/imed-javascript-finite-state-machine.svg?branch=master
-[travis-url]: https://travis-ci.com/jguillod/imed-template
-[coveralls-image]: https://img.shields.io/coveralls/live-js/imed-template/master.svg
-[coveralls-url]: https://coveralls.io/r/live-js/imed-template?branch=master
