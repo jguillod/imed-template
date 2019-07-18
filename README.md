@@ -26,7 +26,7 @@
 
 Follow these steps&nbsp;:
 
-1. Click on "Use this Template" button on the main page repository and create a new repository from imed-template.
+1. Click on "**Use this Template**" button on the [main page repository](https://github.com/jguillod/imed-template) and create a new repository from imed-template.
 
 2. Clone your own repository&nbsp;:
 
