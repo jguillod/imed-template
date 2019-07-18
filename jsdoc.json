@@ -6,7 +6,7 @@
 	"source": {
 		"include": [".", "README.md", "package.json", "test/"],
 		"includePattern": ".js$",
-		"excludePattern": "(node_modules/|docs|out|DEPRECATED|_template)"
+		"excludePattern": "(imed-template/node_modules/|docs|out|DEPRECATED|_template)"
 	},
 	"plugins": [
 		"plugins/markdown"
