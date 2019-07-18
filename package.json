@@ -4,6 +4,7 @@
 	"description": "my NodeJS module template",
 	"main": "index.js",
 	"scripts": {
+		"build": "npm test && npm run generate-docs",
 		"docs": "npm run generate-docs && npm run show-docs",
 		"generate-docs": "jsdoc --configure jsdoc.json --verbose",
 		"show-docs": "node docs/index",
