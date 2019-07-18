@@ -14,8 +14,8 @@
 
 [community-image]: https://badges.gitter.im/imed-template/community.svg
 [community-url]: https://gitter.im/imed-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
-[npm-image]: https://img.shields.io/npm/v/imed-template.svg
-[npm-url]: https://npmjs.org/package/imed-template
+[npm-image]: https://img.shields.io/npm/v/@imed.ch/imed-template.svg
+[npm-url]: https://npmjs.org/package/@imed.ch/imed-template
 [license-image]: https://img.shields.io/github/license/jguillod/imed-template.svg
 [travis-image]: https://travis-ci.com/jguillod/imed-template.svg?branch=master
 [travis-url]: https://travis-ci.com/jguillod/imed-template
