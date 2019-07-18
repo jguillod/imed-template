@@ -26,26 +26,35 @@
 
 Follow these steps&nbsp;:
 
-1. Clone this repository with&nbsp;:
+1. Click on "Use this Template" button on the main page repository and create a new repository from imed-template.
 
-		git clone https://github.com/jguillod/imed-template.git
+2. Clone to your own repository&nbsp;:
 
-	to select revision without *coverage* stuff&nbsp;:
+		git clone https://github.com/<username>/<module-name>.git
 
-		git checkout 066fb91af2bbc0491d7012a4f6abc8e926851b1c
 
-2. Change to your own remote git repository&nbsp;:
+	> **Now edit the project with your favorite editor and do&nbsp;:&nbsp;...**
 
-		git remote remove origin                                           
-		git remote add origin https://github.com/<username>/<module-name>.git
+3. Find/Replace "**imed-template**" with your own npm **"*module-name*"**, e.g. in&nbsp;:
 
-3. Find/Replace "**imed-template**" with your own npm **"*module-name*"**, e.g. in `index.js`, `jsdoc.json`, `package.json` and `README.md`.
+	- `index.js`
+	- `jsdoc.json`
+	- `package.json`
+	- `README.md`
 
-4. Find/Replace **"@imed.ch"** with your own npm **"*scope*"**, e.g. in `jsdoc.json`, `package.json` and `README.md`.
+4. Find/Replace **"@imed.ch"** with your own npm **"*scope*"**, if you dont have a scope, replace **"@imed.ch/"** (suffixed with slash) with **""**, e.g. in&nbsp;:
 
-5. Find/Replace **"jguillod"** with your own git **"*username*"**, e.g. in `package.json` and `README.md`.
+	- `jsdoc.json`
+	- `package.json`
+	- `README.md`
 
-6. 
+5. Find/Replace **"jguillod"** with your own git **"*username*"**, e.g. in&nbsp;:
+
+	- `package.json`
+	- `README.md`
+
+6. Now code your module, commit and push to your git repository.
+
 
 ## Install ##
 
