@@ -49,8 +49,7 @@ Find **imed-template** helpful? Become a [backer](https://opencollective.com/jgu
 
 ## SPONSORS ##
 
-Use **imed-template** at Work? Ask your manager or marketing team if they'd help [support](https://opencollective.com/jguillod#support) our project. Your company's logo will also be displayed on [npmjs.com]/(http://npmjs.com/package/imed-template) and our [GitHub repository](https://github.com/jguillod/imed-logger#sponsors).
-
+Use **imed-template** at Work? Ask your manager or marketing team if they'd help [support](https://opencollective.com/jguillod#support) our project. Your company's logo will also be displayed on [npmjs.com]/(http://npmjs.com/package/imed-template) and our [GitHub repository](https://github.com/jguillod/imed-template#sponsors).
 
 
 
@@ -58,7 +57,7 @@ Use **imed-template** at Work? Ask your manager or marketing team if they'd help
 [community-url]: https://gitter.im/imed-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 [npm-image]: https://img.shields.io/npm/v/imed-template.svg
 [npm-url]: https://npmjs.org/package/imed-template
-[license-image]: https://img.shields.io/npm/l/imed-logger.svg
+[license-image]: https://img.shields.io/github/license/jguillod/imed-logger.svg
 [travis-image]: https://travis-ci.com/jguillod/imed-javascript-finite-state-machine.svg?branch=master
 [travis-url]: https://travis-ci.com/jguillod/imed-template
 [coveralls-image]: https://img.shields.io/coveralls/live-js/imed-template/master.svg
