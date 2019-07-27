@@ -47,10 +47,31 @@ Follow these steps&nbsp;:
 
 6. Now code your module, commit and push to your git repository.
 
+	- Edit `README.md` with your module specs and delete this section "Follow these steps".
+	- Edit `index.js` and any `src/` or `lib/` javascript files.
+	- Edit `test/` files.
+	- Test your module&nbsp;:
+
+			npm test
+
+	- Commit, push and publish your module&nbsp;:
+
+			git status
+			git add package.json index.js docs/ etc.
+
+		then, either&nbsp;:
+
+			git commit -m "module first update"
+
+		or&nbsp;:
+
+			npm version patch -m "Upgrade to %s as first module update"
+			npm publish --access public
+			
 
 ## Install ##
 
-	npm i -S imed-template
+	npm i -S @imed.ch/imed-template
 
 ## Usage ##
 
