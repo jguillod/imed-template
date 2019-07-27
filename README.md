@@ -1,22 +1,14 @@
-[![Join the chat at https://gitter.im/imed-template/community][community-image]][community-url]
-[![NPM Version][npm-image]][npm-url]
-[![NPM][license-image]](LICENSE)
-
-[![Build Status][travis-image]][travis-url]
+[![Join the chat at https://gitter.im/imed-template/community](https://badges.gitter.im/imed-template/community.svg)](https://gitter.im/imed-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![NPM Version](https://img.shields.io/npm/v/@imed.ch/imed-template.svg)](https://npmjs.org/package/@imed.ch/imed-template)
+[![Dependency Status](https://david-dm.org/jguillod/imed-template.svg?style=flat)](https://david-dm.org/jguillod/imed-template)
+[![devDependency Status](https://img.shields.io/david/dev/jguillod/imed-template.svg?style=flat)](https://david-dm.org/jguillod/imed-template#info=devDependencies)
+[![Build Status](https://travis-ci.com/jguillod/imed-template.svg?branch=master)](https://travis-ci.com/jguillod/imed-template)
 [![Coverage Status](https://coveralls.io/repos/github/jguillod/imed-template/badge.svg?branch=master)](https://coveralls.io/github/jguillod/imed-template?branch=master)
+[![NPM](https://img.shields.io/github/license/jguillod/imed-template.svg)](LICENSE)
 
 [![Backers](https://opencollective.com/imed-template/backers/badge.svg)](#BACKERS)
 [![Sponsors](https://opencollective.com/imed-template/sponsors/badge.svg)](#SPONSORS)
 
-[community-image]: https://badges.gitter.im/imed-template/community.svg
-[community-url]: https://gitter.im/imed-template?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
-[npm-image]: https://img.shields.io/npm/v/@imed.ch/imed-template.svg
-[npm-url]: https://npmjs.org/package/@imed.ch/imed-template
-[license-image]: https://img.shields.io/github/license/jguillod/imed-template.svg
-[travis-image]: https://travis-ci.com/jguillod/imed-template.svg?branch=master
-[travis-url]: https://travis-ci.com/jguillod/imed-template
-[coveralls-image]: https://img.shields.io/coveralls/live-js/imed-template/master.svg
-[coveralls-url]: https://coveralls.io/r/live-js/imed-template?branch=master
 
 
 # imed-template #
