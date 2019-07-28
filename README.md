@@ -22,7 +22,7 @@
 
 **WARNING !! THIS MODULE IS NOT INTENDED TO BE INSTALLED !!**
 
-1. Click on "**Use this Template**" button on the [main page repository](https://github.com/jguillod/imed-template) and create a new repository from imed-template.
+1. Click on "**Use this Template**" button on the [main page repository](https://github.com/jguillod/imed-template) and create a new repository from imed-template (choose carefully your own *module-name*).
 
 2. Clone your own repository&nbsp;:
 
