@@ -16,7 +16,11 @@
 
 > some template for nodejs module
 
-Follow these steps&nbsp;:
+---
+
+## Follow these steps&nbsp;: ##
+
+**WARNING !! THIS MODULE IS NOT INTENDED TO BE INSTALLED !!**
 
 1. Click on "**Use this Template**" button on the [main page repository](https://github.com/jguillod/imed-template) and create a new repository from imed-template.
 
@@ -45,24 +49,35 @@ Follow these steps&nbsp;:
 	- `package.json`
 	- `README.md`
 
-6. Now code your module, commit and push to your git repository.
+6. Now code your module&nbsp;:
 
-	- Edit `README.md` with your module specs and delete this section "Follow these steps".
-	- Edit `index.js` and any `src/` or `lib/` javascript files.
+	- ALWAYS install dev dependencies with
+	
+			npm i
+
+	- Optionally install your required modules with
+
+			npm i -S <some-module> ...
+
+	- Edit `README.md` with your module specs and delete this section "*Follow these steps*". Also, delete **Backers** and **Sponsors** *badges* and *sections* when appropriate.
+	- Edit `index.js` and any `src/` or `lib/` javascript files (i.e. code your module).
+	- Write [JSDoc](https://jsdoc.app) comments to document your code.
 	- Edit `test/` files.
-	- Test your module&nbsp;:
+
+7. Test your module&nbsp;:
 
 			npm test
 
+8. Commit and push to your git repository.
 	- Commit, push and publish your module&nbsp;:
 
 			git status
-			git add package.json index.js docs/ etc.
+			git add package.json index.js src/ test/ etc.
 
 		then&nbsp;:
 
 			git commit -m "module first update"
-			npm version patch -m "Upgrade to %s as first module update"
+			npm version patch -m "Patched to %s with corrections"
 			git push origin master --tags
 			npm publish --access public
 			
