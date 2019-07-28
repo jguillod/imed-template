@@ -92,8 +92,10 @@ Last command should open file `./docs/node-ifconfig.me/<version>/index.html` (e.
 
 ## Release History ##
 
+* 0.2.2 cleaning
+  -- Sun Jul 28 09:43:52 CEST 2019
 * 0.1.0 base template
-  --Wed Jul 17 19:33:38 CEST 2019
+  -- Wed Jul 17 19:33:38 CEST 2019
 
 
 ## BACKERS ##
