@@ -29,7 +29,7 @@
 		git clone https://github.com/<username>/<module-name>.git
 
 
-	> **Now edit the project with your favorite editor and do&nbsp;:&nbsp;...**
+	- **Now edit the project with your favorite editor and do&nbsp;:&nbsp;...**
 
 3. Find/Replace "**imed-template**" with your own npm **"*module-name*"**, e.g. in&nbsp;:
 
@@ -51,7 +51,7 @@
 
 6. Now code your module&nbsp;:
 
-	- ALWAYS install dev dependencies with
+	- **ALWAYS** install dev dependencies with
 	
 			npm i
 
@@ -59,10 +59,14 @@
 
 			npm i -S <some-module> ...
 
-	- Edit `README.md` with your module specs and delete this section "*Follow these steps*". Also, delete **Backers** and **Sponsors** *badges* and *sections* when appropriate.
+	- Edit `README.md` with your module specs and delete this section "*Follow these steps*".
+		- Also, delete **BACKERS** and **SPONSORS** *badges* and *sections* when appropriate or configure your [opencollective account](https://opencollective.com/jguillod).
+		- Either create a [**GITTER**](https://gitter.im) room for this module to chat with your module followers or delete the gitter *badge*.
+		- Click on the *build* badge or [open the link](https://travis-ci.com/jguillod/imed-template) and configure [Travis CI](https://travis-ci.com). Or, delete the *build* and *coverage* badges when appropriate.
+
 	- Edit `index.js` and any `src/` or `lib/` javascript files (i.e. code your module).
 	- Write [JSDoc](https://jsdoc.app) comments to document your code.
-	- Edit `test/` files.
+	- Edit `test/` files (i.e. write [Mocha](https://mochajs.org) tests with [chai](https://www.chaijs.com/) - [expect()](https://www.chaijs.com/guide/styles/#expect), [assert()](https://www.chaijs.com/guide/styles/#assert) and [should](https://www.chaijs.com/guide/styles/#should)-style assertions).
 
 7. Test your module&nbsp;:
 
@@ -74,10 +78,18 @@
 			git status
 			git add package.json index.js src/ test/ etc.
 
-		then&nbsp;:
+		then, either (A) or (B)&nbsp;:
+
+		(A) Safe way&nbsp;:
 
 			git commit -m "module first update"
 			npm version patch -m "Patched to %s with corrections"
+			git push origin master --tags
+			npm publish --access public
+
+		(B) Fast way using using `--force` I sure hope you know what you are doing&nbsp;:
+
+			npm version patch --force -m "Patched to %s with corrections"
 			git push origin master --tags
 			npm publish --access public
 			
@@ -107,11 +119,10 @@ Last command should open file `./docs/node-ifconfig.me/<version>/index.html` (e.
 
 ## Release History ##
 
-* 0.2.2 cleaning
-  -- Sun Jul 28 09:43:52 CEST 2019
+* 0.2.5 cleaning
+  -- Sun Jul 28 10:33:51 CEST 2019
 * 0.1.0 base template
   -- Wed Jul 17 19:33:38 CEST 2019
-
 
 ## BACKERS ##
 
@@ -121,5 +132,6 @@ Find **imed-template** helpful? Become a [backer](https://opencollective.com/jgu
 
 Use **imed-template** at Work? Ask your manager or marketing team if they'd help [support](https://opencollective.com/jguillod#support) our project. Your company's logo will also be displayed on [npmjs.com](http://npmjs.com/package/@imed.ch/imed-template) and our [GitHub repository](https://github.com/jguillod/imed-template#sponsors).
 
+## ABOUT US ##
 
-
+Please, feel free to visit our personal website [imed.ch](http://imed.ch) and have a look to IoT projects for HealthCare we are involved in with [eliiot technology](http://eliiot-technology.ch).
