@@ -59,13 +59,11 @@ Follow these steps&nbsp;:
 			git status
 			git add package.json index.js docs/ etc.
 
-		then, either&nbsp;:
+		then&nbsp;:
 
 			git commit -m "module first update"
-
-		or&nbsp;:
-
 			npm version patch -m "Upgrade to %s as first module update"
+			git push origin master --tags
 			npm publish --access public
 			
 
