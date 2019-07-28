@@ -38,7 +38,7 @@
 	- `package.json`
 	- `README.md`
 
-4. Find/Replace **"@imed.ch"** with your own npm **"*scope*"**, if you dont have a scope, replace **"@imed.ch/"** (suffixed with slash) with **""**, e.g. in&nbsp;:
+4. Find/Replace **"@imed.ch"** with your own npm **"*@scope*"**, if you dont have a scope, replace **"@imed.ch/"** (suffixed with slash) with **""**, e.g. in&nbsp;:
 
 	- `jsdoc.json`
 	- `package.json`
@@ -62,7 +62,6 @@
 	- Edit `README.md` with your module specs and delete this section "*Follow these steps*".
 		- Also, delete **BACKERS** and **SPONSORS** *badges* and *sections* when appropriate or configure your [opencollective account](https://opencollective.com/jguillod).
 		- Either create a [**GITTER**](https://gitter.im) room for this module to chat with your module followers or delete the gitter *badge*.
-		- Click on the *build* badge or [open the link](https://travis-ci.com/jguillod/imed-template) and configure [Travis CI](https://travis-ci.com). Or, delete the *build* and *coverage* badges when appropriate.
 
 	- Edit `index.js` and any `src/` or `lib/` javascript files (i.e. code your module).
 	- Write [JSDoc](https://jsdoc.app) comments to document your code.
@@ -93,7 +92,12 @@
 			git push origin master --tags
 			npm publish --access public
 			
+9. Build and coverage badges&nbsp;:
 
+	- Click on the *build* badge or [open the link](https://travis-ci.com/jguillod/imed-template) and configure [Travis CI](https://travis-ci.com). Or, delete the *build* and *coverage* badges in README.md when appropriate.
+
+	> Coverage is run automaticaly by Travis. You can also change the behavior by editing file `.travis.yml`.
+	
 ## Install ##
 
 	npm i -S @imed.ch/imed-template
