@@ -88,7 +88,7 @@ will generate the documentation and open its `index.html` file. It's a shortcut 
 	npm run generate-docs
 	npm run show-docs
 
-If the index.html file does not show in your browser, edit `package.json` file and see if version number should be updated in `scripts["show-docs"]`, or open file in `./docs/imed-template/<version>/index.html` (e.g. `./docs/imed-template/0.1.0/index.html`).
+Last command should open file `./docs/node-ifconfig.me/<version>/index.html` (e.g. `./docs/node-ifconfig.me/0.1.0/index.html`) in your browser.
 
 ## Release History ##
 
