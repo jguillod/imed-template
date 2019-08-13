@@ -97,7 +97,11 @@
 	- Click on the *build* badge or [open the link](https://travis-ci.com/jguillod/imed-template) and configure [Travis CI](https://travis-ci.com). Or, delete the *build* and *coverage* badges in README.md when appropriate.
 
 	> Coverage is run automaticaly by Travis. You can also change the behavior by editing file `.travis.yml`.
-	
+
+10. If you find this template helpfull, please consider to buy me some cups of coffee on&nbsp;:
+
+	[![click me](https://ko-fi.com/img/Kofi_Logo_Blue.svg)](https://ko-fi.com/elojes)
+
 ## Install ##
 
 	npm i -S @imed.ch/imed-template
