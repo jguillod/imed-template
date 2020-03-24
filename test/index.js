@@ -17,9 +17,12 @@ describe('#logger', function() {
 });
 
 
-// DELETE FOLLOWING describe
+// DELETE OR COMMENT THE FOLLOWING describe =========>>>
+
 describe('#git pre-commit hook', function() {
 	it('should abort any commit until you fix ./test/index.js', function() {
 		Number(1).should.equal(0);
 	})
 });
+
+// <<<=========
