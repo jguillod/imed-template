@@ -7,9 +7,19 @@ describe('#logger', function() {
 		expect(logger.log('some message')).to.be.undefined
 	});
 
-	it('should have a debug function', function(){
+	it('should have a debug function', function() {
 		logger.should.have.property('debug');
 		(typeof logger.debug).should.equal('function');
-	})
+	});
+
 	// ... etc.
+
+});
+
+
+// DELETE FOLLOWING describe
+describe('#git pre-commit hook', function() {
+	it('should abort any commit until you fix ./test/index.js', function() {
+		Number(1).should.equal(0);
+	})
 });
