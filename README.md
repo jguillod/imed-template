@@ -127,6 +127,7 @@ Last command should open file `./docs/node-ifconfig.me/<version>/index.html` (e.
 
 ## Release History ##
 
+* 0.2.6 added support for [pre-commit](https://github.com/observing/pre-commit).
 * 0.2.5 cleaning
   -- Sun Jul 28 10:33:51 CEST 2019
 * 0.1.0 base template

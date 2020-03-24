@@ -1,6 +1,6 @@
 {
 	"name": "@imed.ch/imed-template",
-	"version": "0.2.5",
+	"version": "0.2.6",
 	"description": "my NodeJS module template",
 	"main": "index.js",
 	"scripts": {
