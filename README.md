@@ -2,14 +2,13 @@
 [![NPM Version](https://img.shields.io/npm/v/@imed.ch/imed-template.svg)](https://npmjs.org/package/@imed.ch/imed-template)
 [![Dependency Status](https://david-dm.org/jguillod/imed-template.svg?style=flat)](https://david-dm.org/jguillod/imed-template)
 [![devDependency Status](https://img.shields.io/david/dev/jguillod/imed-template.svg?style=flat)](https://david-dm.org/jguillod/imed-template#info=devDependencies)
-[![Build Status](https://travis-ci.com/jguillod/imed-template.svg?branch=master)](https://travis-ci.com/jguillod/imed-template)
 [![Coverage Status](https://coveralls.io/repos/github/jguillod/imed-template/badge.svg?branch=master)](https://coveralls.io/github/jguillod/imed-template?branch=master)
 [![NPM](https://img.shields.io/github/license/jguillod/imed-template.svg)](LICENSE)
 
 [![Backers](https://opencollective.com/imed-template/backers/badge.svg)](#BACKERS)
 [![Sponsors](https://opencollective.com/imed-template/sponsors/badge.svg)](#SPONSORS)
 
-
+> [![Build Status](https://travis-ci.com/jguillod/imed-template.svg?branch=master)](https://travis-ci.com/jguillod/imed-template)   <=> Having **Build failing** is expected and a feature of this template !
 
 # imed-template #
 
@@ -17,37 +16,56 @@
 > some template for nodejs module
 
 ---
+**WARNING !! THIS MODULE IS A NODEJS MODULE TEMPLATE AND IS NOT INTENDED TO BE INSTALLED !!**
+---
 
-## Follow these steps&nbsp;: ##
+## PLEASE ! Follow these steps&nbsp;: ##
 
-**WARNING !! THIS MODULE IS NOT INTENDED TO BE INSTALLED !!**
+1. Make a workable copy of this template by either:
 
-1. Click on "**Use this Template**" button on the [main page repository](https://github.com/jguillod/imed-template) and create a new repository from imed-template (choose carefully your own *module-name*).
+	- Click on "**Use this Template**" button on the [main page repository](https://github.com/jguillod/imed-template) and create a new repository from imed-template (choose carefully your own *module-name*).
 
-2. Clone your own repository&nbsp;:
+			git clone https://github.com/<username>/<module-name>.git
 
-		git clone https://github.com/<username>/<module-name>.git
+	- or clone it then set remote to your own repository:
 
+			git clone https://github.com/jguillod/imed-template
+			git remote set-url origin <your_url>
 
-	- **Now edit the project with your favorite editor and do&nbsp;:&nbsp;...**
+> **Now edit the project with your favorite editor and do&nbsp;:&nbsp;...**
 
-3. Find/Replace "**imed-template**" with your own npm **"*module-name*"**, e.g. in&nbsp;:
+2. Find/Replace "**imed-template**" with your own npm **"*module-name*"**, e.g. in&nbsp;:
 
 	- `index.js`
 	- `jsdoc.json`
 	- `package.json`
 	- `README.md`
 
-4. Find/Replace **"@imed.ch"** with your own npm **"*@scope*"**, if you dont have a scope, replace **"@imed.ch/"** (suffixed with slash) with **""**, e.g. in&nbsp;:
+3. Find/Replace **"@imed.ch"** with your own npm **"*@scope*"**, if you dont have a scope, replace **"@imed.ch/"** (suffixed with slash) with **""**, e.g. in&nbsp;:
 
 	- `jsdoc.json`
 	- `package.json`
 	- `README.md`
 
-5. Find/Replace **"jguillod"** with your own git **"*username*"**, e.g. in&nbsp;:
+4. Find/Replace **"jguillod"** with your own git **"*username*"**, e.g. in&nbsp;:
 
 	- `package.json`
 	- `README.md`
+
+5. The following modules should be installed globally (my personal preference not to duplicate on disk for each new module) or locally:
+
+		npm i -g chai coveralls jsdoc minami mocha nyc
+	
+	Also, edit file `jsdoc.json` to set `template` property to the correct path:
+
+	- when global install on OSX (tips: exec in shell `echo $NODE_PATH` to find global `node_module` path):
+
+			"template": "/usr/local/lib/node_modules/minami"
+
+	- or locally:
+
+			"template": "./node_modules/minami",
+		
 
 6. Now code your module&nbsp;:
 
@@ -70,6 +88,10 @@
 7. Test your module&nbsp;:
 
 			npm test
+	
+	It should fail because I wrote a failing test in order to prevent committing until it is fixed. This is a normal feature of git pre-commit hook (see [module pre-commit](https://github.com/observing/pre-commit) for details). I'm willing to ensure a commit is not done too early. Anyway if you prefer to force the commit by passing the pre-commit hook use the `--no-verify` args in command below:
+
+		git commit --no-verify -m "..."
 
 8. Commit and push to your git repository.
 	- Commit, push and publish your module&nbsp;:
@@ -82,6 +104,9 @@
 		(A) Safe way&nbsp;:
 
 			git commit -m "module first update"
+			## or to bypass the pre-commit hook :
+			# git commit --no-verify -m "..."
+
 			npm version patch -m "Patched to %s with corrections"
 			git push origin master --tags
 			npm publish --access public
@@ -101,6 +126,11 @@
 10. If you find this template helpfull, please consider to buy me some cups of coffee on&nbsp;:
 
 	[![click me](https://ko-fi.com/img/Kofi_Logo_Blue.svg)](https://ko-fi.com/elojes)
+
+---
+**TEMPLATE END HERE => REMOVE PART FROM START TO HERE, THEN EDIT YOU OWN DOCUMENTATION WITH/OUT THE DOCUMENTATION BELOW.**
+
+---
 
 ## Install ##
 
@@ -140,6 +170,8 @@ Find **imed-template** helpful? Become a [backer](https://opencollective.com/jgu
 ## SPONSORS ##
 
 Use **imed-template** at Work? Ask your manager or marketing team if they'd help [support](https://opencollective.com/jguillod#support) our project. Your company's logo will also be displayed on [npmjs.com](http://npmjs.com/package/@imed.ch/imed-template) and our [GitHub repository](https://github.com/jguillod/imed-template#sponsors).
+
+[![click me](https://ko-fi.com/img/Kofi_Logo_Blue.svg)](https://ko-fi.com/elojes)
 
 ## ABOUT US ##
 

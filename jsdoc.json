@@ -22,7 +22,7 @@
 		"encoding": "utf8",
 		"private": true,
 		"recurse": true,
-		"template": "./node_modules/minami",
+		"template": "/usr/local/lib/node_modules/minami",
 		"title": "@imed.ch/imed-template"
 	}
 }

@@ -3,7 +3,7 @@ var expect = require('chai').expect,
 	logger = require('../index').console;
 
 describe('#logger', function() {
-	it('can log some message and returns undefined', function() {
+	it('should returns undefined on invoking log function', function() {
 		expect(logger.log('some message')).to.be.undefined
 	});
 
@@ -20,7 +20,7 @@ describe('#logger', function() {
 // DELETE OR COMMENT THE FOLLOWING describe =========>>>
 
 describe('#git pre-commit hook', function() {
-	it('should abort any commit until you fix ./test/index.js', function() {
+	it('SHOULD ABORT ANY COMMIT UNTIL YOU FIX THISFILE -> ./test/index.js', function() {
 		Number(1).should.equal(0);
 	})
 });
