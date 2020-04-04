@@ -54,7 +54,7 @@
 
 5. The following modules should be installed globally (my personal preference not to duplicate on disk for each new module) or locally:
 
-		npm i -g chai coveralls jsdoc minami mocha nyc
+		npm i -g chai coveralls jsdoc minami mocha nyc open
 	
 	Also, edit file `jsdoc.json` to set `template` property to the correct path:
 

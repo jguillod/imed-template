@@ -26,7 +26,6 @@
 	},
 	"homepage": "https://github.com/jguillod/imed-template#readme",
 	"devDependencies": {
-		"open": "^6.4.0",
 		"pre-commit": "^1.2.2"
 	},
 	"pre-commit": [
