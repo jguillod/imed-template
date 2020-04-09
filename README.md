@@ -52,6 +52,10 @@
 	- `package.json`
 	- `README.md`
 
+> **IMPORTANT**  
+> Change the `"author"` property in file `package.json` according to your own data.
+
+
 5. The following modules should be installed globally (my personal preference not to duplicate on disk for each new module) or locally:
 
 		npm i -g chai coveralls jsdoc minami mocha nyc open
@@ -73,7 +77,7 @@
 	
 			npm i
 
-	- Optionally install your required modules with
+	- Optionally install your dependencies modules with
 
 			npm i -S <some-module> ...
 
@@ -142,13 +146,59 @@ TODO
 
 ## Tests ##
 
-	npm test
+Modules for testing should be installed globally or locally as dev dependencies with&nbsp;:
+
+```bash
+npm i -g chai coveralls mocha nyc           # global install
+npm i --save-dev chai coveralls mocha nyc   # local to module
+```
+
+Execute tests with&nbsp;:
+
+```bash
+npm test
+```
 
 ## Documentation ##
 
+To generate documentation you should have some installed modules :
+
+### (A) Either globally allong side [with one of JSDoc template](https://github.com/jsdoc/jsdoc#templates)&nbsp;:
+
+_(not to have duplicate local packages with any new module in development)_
+```bash
+npm install -g jsdoc minami
+npm install -g jsdoc better-docs
+```
+
+also update the "opts" property in `jsdoc.json` file :
+
+```json
+"opts": {
+        ...,
+        "template": "/usr/local/lib/node_modules/minami"
+    }
+```
+
+where
+
+- `minami` can be replaced by name of template your installed, like `better-docs`.
+- `/usr/local/lib/node_modules/` is the global path to modules (OSX). You can find the correct path with&nbsp;:
+
+    ```bash
+    npm root -g
+    # => /usr/local/lib/node_modules
+    ```
+
+ ### (B) or as local module dev-dependencies&nbsp;:
+ 
+    npm install --save-dev jsdoc minami
+
+Build documentation with&nbsp:
+
 	npm run docs
 
-will generate the documentation and open its `index.html` file. It's a shortcut of:
+It will generate the documentation and open its `index.html` file. It's a shortcut of:
 
 	npm run generate-docs
 	npm run show-docs
@@ -157,6 +207,7 @@ Last command should open file `./docs/node-ifconfig.me/<version>/index.html` (e.
 
 ## Release History ##
 
+* 0.4.0 changed author in package.json and for global access packages.
 * 0.2.6 added support for [pre-commit](https://github.com/observing/pre-commit).
 * 0.2.5 cleaning
   -- Sun Jul 28 10:33:51 CEST 2019
