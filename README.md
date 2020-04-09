@@ -8,7 +8,7 @@
 [![Backers](https://opencollective.com/imed-template/backers/badge.svg)](#BACKERS)
 [![Sponsors](https://opencollective.com/imed-template/sponsors/badge.svg)](#SPONSORS)
 
-> [![Build Status](https://travis-ci.com/jguillod/imed-template.svg?branch=master)](https://travis-ci.com/jguillod/imed-template)   <=> Having **Build failing** is expected and a feature of this template !
+> [![Build Status](https://travis-ci.com/jguillod/imed-template.svg?branch=master)](https://travis-ci.com/jguillod/imed-template)   <=> Having **Build failing** may be expected and a feature of this template ! See `./test/index.js`.
 
 # imed-template #
 
