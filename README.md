@@ -8,7 +8,7 @@
 [![Backers](https://opencollective.com/imed-template/backers/badge.svg)](#BACKERS)
 [![Sponsors](https://opencollective.com/imed-template/sponsors/badge.svg)](#SPONSORS)
 
-> [![Build Status](https://travis-ci.com/jguillod/imed-template.svg?branch=master)](https://travis-ci.com/jguillod/imed-template)   <=> Having **Build failing** is expected and a feature of this template !
+> [![Build Status](https://travis-ci.com/jguillod/imed-template.svg?branch=master)](https://travis-ci.com/jguillod/imed-template)   <=> Having **Build failing** may be expected and a feature of this template ! See `./test/index.js`.
 
 # imed-template #
 
@@ -23,7 +23,7 @@
 
 1. Make a workable copy of this template by either:
 
-	- Click on "**Use this Template**" button on the [main page repository](https://github.com/jguillod/imed-template) and create a new repository from imed-template (choose carefully your own *module-name*).
+	- Click on **<a class="btn btn-sm btn-primary ml-2" href="https://github.com/jguillod/imed-template/generate">Use this template</a>** here or on the button shown on [main page repository](https://github.com/jguillod/imed-template) to create a new repository from imed-template (choose carefully your own "**Repository name**").
 
 			git clone https://github.com/<username>/<module-name>.git
 
@@ -93,7 +93,7 @@
 
 			npm test
 	
-	It should fail because I wrote a failing test in order to prevent committing until it is fixed. This is a normal feature of git pre-commit hook (see [module pre-commit](https://github.com/observing/pre-commit) for details). I'm willing to ensure a commit is not done too early. Anyway if you prefer to force the commit by passing the pre-commit hook use the `--no-verify` args in command below:
+	It may fail because I wrote a failing test in order to prevent committing until it is fixed. This is a normal feature of git pre-commit hook (see [module pre-commit](https://github.com/observing/pre-commit) for details). I'm willing to ensure a commit is not done too early. Anyway if you prefer to force the commit by passing the pre-commit hook use the `--no-verify` args in command below:
 
 		git commit --no-verify -m "..."
 

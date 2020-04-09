@@ -19,10 +19,12 @@ describe('#logger', function() {
 
 // DELETE OR COMMENT THE FOLLOWING describe =========>>>
 
+const PREVENT_COMMIT_TO_SUCCEED = true;
+
 describe('#git pre-commit hook', function() {
-	it('SHOULD ABORT ANY COMMIT UNTIL YOU FIX THISFILE -> ./test/index.js', function() {
-		Number(1).should.equal(0);
-	})
+	it('MAY ABORT ANY COMMIT UNTIL YOU FIX THISFILE -> ./test/index.js', function() {
+		expect(PREVENT_COMMIT_TO_SUCCEED).to.equal(false, 'remove this test or set PREVENT_COMMIT_TO_SUCCEED = false');
+	});
 });
 
 // <<<=========
